@@ -72,7 +72,7 @@ a {
     color: white; 
     padding: 16px; 
     border-radius: 4px; 
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.12), 1px 1px 1px rgba(0,0,0,0.12); 
 }
 .boxYellow { 
     display: block; 
@@ -93,18 +93,31 @@ a {
     padding: 0 12px; 
 }
 .bgdark{
-    display: flexbox;
+    display: flex;
     background-color: rgb(50, 50, 50);
     padding: 12px;
     width: 390px;
     margin: 0px auto;
 }
 .bglight{
-    display: flexbox;
+    display: flex;
     gap: 12px;
-    border: 1px none red;
+    border: 1px solid red;
     margin: 0px auto;
-    padding-bottom: 12px;
+    padding: 12px;
+}
+.pic{
+    border: 1px solid blue;
+    width: 300px;
+    margin: 0px auto;
+    display: flex;
+    vertical-align:bottom;
+}
+.pic img{
+    
+    width: 90%;
+    border: 1px solid red;
+
 }
       
     @media (max-width: 600px) {
@@ -118,7 +131,7 @@ a {
         }
 		.big { 
             width: 95%; 
-            min-width: 300px;
+            min-width: 270px;
         }
         .media { 
             width: 40%;
