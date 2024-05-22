@@ -45,7 +45,7 @@ a {
 }
 .media {
     width: 30%; 
-    min-width: 300px;
+    min-width: 200px;
     vertical-align: middle;
 }
 .small {
@@ -93,6 +93,7 @@ a {
     padding: 0 12px; 
 }
 .bgdark{
+    display: flexbox;
     background-color: rgb(50, 50, 50);
     padding: 12px;
     width: 390px;
@@ -119,6 +120,9 @@ a {
             width: 95%; 
             min-width: 300px;
         }
+        .media { 
+            width: 40%;
+        }
 		.small { 
             width: 30%; 
         }
@@ -136,6 +140,6 @@ a {
             font-size: 18px; 
         }
         .bgdark{
-            width: 75%;
+            width: 65%;
         }
     }
