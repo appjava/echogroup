@@ -45,6 +45,7 @@ a {
 }
 .media {
     width: 30%; 
+    min-width: 300px;
     vertical-align: middle;
 }
 .small {
@@ -91,6 +92,19 @@ a {
     background: #4384f4; 
     padding: 0 12px; 
 }
+.bgdark{
+    background-color: rgb(50, 50, 50);
+    padding: 12px;
+    width: 390px;
+    margin: 0px auto;
+}
+.bglight{
+    display: flexbox;
+    gap: 12px;
+    border: 1px none red;
+    margin: 0px auto;
+    padding-bottom: 12px;
+}
       
     @media (max-width: 600px) {
         body { 
@@ -120,5 +134,8 @@ a {
         }
 		.boxGreen { 
             font-size: 18px; 
+        }
+        .bgdark{
+            width: 75%;
         }
     }
