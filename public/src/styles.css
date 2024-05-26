@@ -123,6 +123,12 @@ a {
     justify-content: center;
     margin: 0 auto;
 }
+.objs img{
+    border-radius: 12px;
+    border: 1px solid white;
+    width: 150px;
+    height: 150px;
+}
       
     @media (max-width: 600px) {
         body { 
