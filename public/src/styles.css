@@ -170,14 +170,21 @@ a {
 		.boxGreen { 
             font-size: 18px; 
         }
-        .bgdark{
-            width: 75%;
+        .bgdark img{
+            width: 180px;
         }
+
         .bglight{
             display: block;
         }
         .pic{
             width: 75%;
         }
-        
+        .objs img{
+            width: 120px;
+            height: 120px;
+        }
+        .goals{
+            width: 120px;
+        }
     }
