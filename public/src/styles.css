@@ -149,8 +149,10 @@ a {
             min-width: 270px;
         }
         .media { 
-            
+            width: 84%;
             border: 1px none white;
+            padding-top: 12px;
+            padding-bottom: 12px;
         }
 		.small { 
             width: 30%; 
