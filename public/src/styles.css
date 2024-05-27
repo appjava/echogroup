@@ -131,6 +131,9 @@ a {
     width: 150px;
     height: 150px;
 }
+.goals{
+    width: 150px;
+}
       
     @media (max-width: 600px) {
         body { 
