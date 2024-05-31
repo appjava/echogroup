@@ -125,6 +125,12 @@ a {
     justify-content: center;
     margin: 0 auto;
 }
+.objs{
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    gap: 30px;
+    justify-content: center;
+}
 .objs img{
     border-radius: 12px;
     border: 1px solid white;
@@ -134,8 +140,27 @@ a {
 .goals{
     width: 150px;
 }
-      
+
+    @media (max-width: 1300px) {   
+        .objs{
+            display: grid;
+            grid-template-columns: repeat(3, 150px);
+            gap: 45px;
+        }
+    }
+    @media (max-width: 900px) {   
+        .objs{
+            display: grid;
+            grid-template-columns: repeat(2, 150px);
+            gap: 60px;
+        }
+    }
     @media (max-width: 600px) {
+        .objs{
+            display: grid;
+            grid-template-columns: repeat(1, 150px);
+            gap: 30px;
+        }
         body { 
             width: 84%; 
             margin-top: 0; 
@@ -179,10 +204,6 @@ a {
         }
         .pic{
             width: 75%;
-        }
-        .objs img{
-            width: 120px;
-            height: 120px;
         }
         .goals{
             width: 120px;
