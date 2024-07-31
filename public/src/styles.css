@@ -55,6 +55,7 @@ a {
     width: 100%; 
     min-width: 100px;
     vertical-align: middle;
+    border-radius: 12px;
 }
 .small {
     width: 15%; 
@@ -114,7 +115,8 @@ a {
 .bglight{
     width: 100%;
     display: flex;
-    gap: 3px;
+    flex-wrap: wrap;
+    gap: 24px;
     border: 1px none black;
     margin: 0px auto;
     padding-bottom: 24px;
@@ -124,15 +126,18 @@ a {
 .pic{
     border: 1px none cyan;
     width: 90%;
+    max-width: 450px;
+    min-width: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
+
 .objs{
-    display: grid;
-    grid-template-columns: repeat(6, 150px);
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
     justify-content: center;
 }
 .objs img{
@@ -179,9 +184,6 @@ a {
         }
         .media { 
             width: 84%;
-            border: 1px none white;
-            padding-top: 12px;
-            padding-bottom: 12px;
         }
 		.small { 
             width: 30%; 
@@ -199,13 +201,7 @@ a {
 		.boxGreen { 
             font-size: 18px; 
         }
-        .bgdark img{
-            width: 180px;
-        }
 
-        .bglight{
-            display: block;
-        }
         .pic{
             width: 75%;
         }
