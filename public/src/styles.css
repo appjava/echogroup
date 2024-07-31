@@ -1,29 +1,33 @@
+
 *{
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif; 
+    font-weight: lighter;
 }
-body { 
+body {
+    --bgcolor: gray;
     font-size: 24px; 
     margin: 0 auto; 
     width: 75%; 
     text-align: center; 
-    background: white; 
+    background: var(--bgcolor); 
     color: rgba(0,0,0,0.87); 
-    font-family: Roboto, Helvetica, Arial, sans-serif; 
+    
 }
 hr { 
     color: #F19929;
     border: 1px solid;
 }
 h1 { 
-    font-weight: 300; 
+    /*font-weight: 300;*/ 
     color: rgba(0,0,0,1); 
     margin-top: 12px; 
     margin-bottom: 12px;
 }
 h2 { 
     color: #407F46; 
-    font-weight: bold; 
+    /*font-weight: bold;*/ 
     margin: 0 0 8px; 
 }
 h3 { 
@@ -32,7 +36,7 @@ h3 {
 }
 h4 { 
     color: #27BFE6; 
-    font-weight: bold; 
+    /*font-weight: bold;*/ 
 }
 p { 
     text-align: justify; 
