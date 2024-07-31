@@ -6,7 +6,7 @@
     font-weight: lighter;
 }
 body {
-    --bgcolor: gray;
+    --bgcolor: white;
     font-size: 24px; 
     margin: 0 auto; 
     width: 75%; 
