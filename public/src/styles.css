@@ -9,15 +9,29 @@ body {
     --bgcolor: white;
     font-size: 24px; 
     margin: 0 auto; 
-    width: 75%; 
+    width: 100%; 
     text-align: center; 
     background: var(--bgcolor); 
     color: rgba(0,0,0,0.87); 
     
 }
+footer{
+    background-color: #407F46;
+    width: 93%;
+    margin: 0 auto;
+    color: white;
+    height: 120px;
+    padding: 30px;
+}
+section{
+    width: 84%;
+    margin: 0 auto;
+}
 hr { 
     color: #F19929;
     border: 1px solid;
+    width: 90%;
+    margin: 0 auto;
 }
 h1 { 
     /*font-weight: 300;*/ 
@@ -44,7 +58,7 @@ p {
     margin: 16px 0 24px; 
 }
 a {
-    color: #407F46; 
+    color: black; 
     text-decoration: none; 
 }
 .big {
@@ -150,6 +164,36 @@ a {
     width: 150px;
 }
 
+#power{
+    display: none;
+}
+#apoyo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 15px;
+    margin: 30px auto;
+}
+.apoyado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    padding: 24px;
+    font-size: 18px;
+    border: solid gray 1px;
+    border-radius: 24px;
+    
+}
+.apoyado img{
+    width: 100%;
+    border-radius: 12px;
+    height: 120px;
+}
+
+
+
     @media (max-width: 1300px) {   
         .objs{
             display: grid;
@@ -171,12 +215,15 @@ a {
             gap: 30px;
         }
         body { 
-            width: 84%; 
+            width: 90%;
             margin-top: 0; 
             background: white; 
             box-shadow: none; 
             border-top: 12px solid #FBC412; 
             border-bottom: 12px solid #FBC412; 
+        }
+        footer{
+            width: 84%;
         }
 		.big { 
             width: 95%; 
